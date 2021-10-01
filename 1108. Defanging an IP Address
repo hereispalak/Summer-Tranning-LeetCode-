@@ -1,0 +1,12 @@
+class Solution {
+    public String defangIPaddr(String a) {
+         String s="";
+    
+    if(a.contains("."))
+        s = a.replace(".", "[.]");
+ 
+    return s;
+    
+}
+}
+        
